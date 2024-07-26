@@ -1,0 +1,42 @@
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de Texto</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Encriptador de Texto Desafio ALURA </h1>
+        
+    </header>
+    <main class="presentacion">
+        
+                 
+        <div class="seccion_Ingreso">
+        <textarea id="ingreso_Texto" placeholder="Ingresa tu texto a encriptar ..." rows="6"></textarea>
+            <div class="botones">
+                <button onclick="encriptar__Texto()">Encriptar</button>
+                <button onclick="desencriptar__Texto()">Desencriptar</button>
+            </div>
+        </div>
+        <div class="seccion_Ingreso">
+            <textarea id="salida_Texto" placeholder="Texto encriptado o desencriptado..." rows="6" readonly></textarea>
+            <div class="botones">
+                <button onclick="copiar__Texto()">Copiar</button>
+            </div>
+        </div>
+
+            <p id="mensaje_Error" class="error"></p>
+            <p id="mensaje_Dispositivo" class="device"></p>
+
+        
+    </main>
+    <footer>
+        <p>Derechos reservados , Sergio Gabriel Ibarra </p>
+    </footer>
+  <script src="app.js"></script>
+</body>
+</html>
+<
